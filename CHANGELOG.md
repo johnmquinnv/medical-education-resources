@@ -1,5 +1,11 @@
 # Changelog
 
+## Portfolio expansion — 22 October 2026
+
+- Added research-methods templates, synthetic survey data and Excel instructions, plus a curriculum map, fictional training scenario and observation rubric.
+- New collections are version 0.1.0 demonstrations; no clinical validation, accreditation or employer endorsement is claimed.
+
+
 ## 1.1.0 — 22 October 2026
 
 - Added maintainer, version, editorial-update date and explicit clinical-review status.

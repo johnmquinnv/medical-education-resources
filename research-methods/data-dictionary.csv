@@ -1,0 +1,5 @@
+variable,type,allowed_values,definition,missing_rule
+response_id,string,S001-S008,Invented record identifier,Required
+activity,category,simulation|case_discussion|reading,Learning activity rated,Required
+usefulness,ordinal,1-5,1 not at all useful to 5 extremely useful,Blank means skipped
+confidence,ordinal,1-5,Self-rated confidence not competence,Blank means skipped

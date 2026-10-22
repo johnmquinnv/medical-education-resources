@@ -13,6 +13,13 @@ Practical study frameworks and curated learning links for clinicians and trainee
 1. [Question-bank study strategy](question-banks/study-strategy.md): how to use any question bank efficiently.
 2. [Emergency imaging learning resources](emergency-imaging/learning-resources.md): X-ray, CT and point-of-care ultrasound.
 
+## Research and training portfolio
+
+- [Public-health research methods](research-methods/README.md): study planning, sampling, surveys, interviews, Delphi, qualitative coding and a synthetic Excel exercise.
+- [Emergency and disaster training design](training-design/README.md): curriculum mapping, a fictional coordination exercise, observation and debrief.
+
+These are original portfolio demonstrations, not reports of validated studies or accredited training.
+
 ## Contributing
 
 Suggestions and corrections are welcome via issues or pull requests. Please do not submit patient-identifiable images or information.

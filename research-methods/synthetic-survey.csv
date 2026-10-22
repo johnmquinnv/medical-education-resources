@@ -1,0 +1,9 @@
+response_id,activity,usefulness,confidence
+S001,simulation,5,4
+S002,simulation,4,3
+S003,case_discussion,4,4
+S004,reading,3,3
+S005,simulation,5,4
+S006,case_discussion,3,2
+S007,reading,2,
+S008,simulation,4,4
