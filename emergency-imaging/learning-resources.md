@@ -1,5 +1,8 @@
 # Emergency imaging: learning resources
 
+**Version:** 1.1.0 · **Last editorial update:** 22 October 2026  
+**Maintainer:** John Quinn, MD, MPH, PhD, EMT-P. Educational draft; see the [repository review status](../README.md).
+
 A curated starting list. Availability, cost and licensing change, so check each site.
 
 ## General radiology and X-ray / CT
@@ -37,5 +40,7 @@ Adapt the same principle to trauma series, abdominal films, and CT head and cerv
 
 ## Notes
 
-- Use only fully anonymised or properly licensed images in any teaching material.
+- Check **both patient confidentiality/consent and permission to reuse the image**. A copyright licence does not replace confidentiality safeguards, and anonymisation does not grant copyright permission.
+- For this public repository, use synthetic examples or links to the original provider. Do not upload patient images.
+- For teaching elsewhere, assess whether the patient could be identified from the image, metadata, accompanying text or context; obtain consent where required for the intended audience and use, and comply with the image owner's licence or permission. Follow local governance requirements and [GMC guidance on recordings in public media](https://www.gmc-uk.org/professional-standards/the-professional-standards/making-and-using-visual-and-audio-recordings-of-patients/recordings-for-use-in-widely-accessible-public-media---television-radio-internet-print).
 - Imaging interpretation in practice should follow local protocols and formal radiology reporting.

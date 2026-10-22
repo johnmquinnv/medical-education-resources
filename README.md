@@ -1,5 +1,9 @@
 # Medical Education Resources
 
+**Maintainer:** John Quinn, MD, MPH, PhD, EMT-P  
+**Version:** 1.1.0 · **Last editorial update:** 22 October 2026  
+**Clinical review status:** educational draft; independent clinical sign-off is not recorded. Local review and approval are required before operational use.
+
 Practical study frameworks and curated learning links for clinicians and trainees, with a focus on emergency medicine.
 
 > Educational and general. Contains no patient data or patient images. Check each provider's terms, currency and licensing before relying on or sharing their material.
@@ -13,6 +17,10 @@ Practical study frameworks and curated learning links for clinicians and trainee
 
 Suggestions and corrections are welcome via issues or pull requests. Please do not submit patient-identifiable images or information.
 
-## Licence
+## Reuse and attribution
 
-Content is shared for general educational use.
+These materials are provided for general educational use. A standard open-content licence has not yet been specified; do not assume unrestricted permission to redistribute, adapt or use them commercially. Contact the maintainer through a repository issue to clarify reuse. Linked publications, images, provider resources, names and logos remain subject to their own rights and terms.
+
+## Maintenance
+
+See [CHANGELOG.md](CHANGELOG.md) for dated changes. When suggesting a correction, include the affected file, the proposed wording and a current primary source. Use synthetic examples only. Content should be checked again when relevant guidance changes.

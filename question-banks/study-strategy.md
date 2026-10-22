@@ -1,5 +1,8 @@
 # Question-bank study strategy
 
+**Version:** 1.1.0 · **Last editorial update:** 22 October 2026  
+**Maintainer:** John Quinn, MD, MPH, PhD, EMT-P. Educational draft; see the [repository review status](../README.md).
+
 A provider-neutral framework that works with any question bank.
 
 ## Principles
