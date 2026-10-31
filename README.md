@@ -1,7 +1,7 @@
 # Medical Education Resources
 
 **Maintainer:** John Quinn, MD, MPH, PhD, EMT-P  
-**Version:** 1.1.0 · **Last editorial update:** 22 October 2026  
+**Version:** 1.2.0 · **Last editorial update:** 31 October 2026  
 **Clinical review status:** educational draft; independent clinical sign-off is not recorded. Local review and approval are required before operational use.
 
 Practical study frameworks and curated learning links for clinicians and trainees, with a focus on emergency medicine.
@@ -26,7 +26,7 @@ Suggestions and corrections are welcome via issues or pull requests. Please do n
 
 ## Reuse and attribution
 
-These materials are provided for general educational use. A standard open-content licence has not yet been specified; do not assume unrestricted permission to redistribute, adapt or use them commercially. Contact the maintainer through a repository issue to clarify reuse. Linked publications, images, provider resources, names and logos remain subject to their own rights and terms.
+Original educational content and synthetic datasets are available under [CC BY-NC 4.0](LICENSE): noncommercial sharing and adaptation with attribution and identification of changes. Demonstration and maintenance code uses the [MIT license](LICENSE-CODE). Third-party publications, images, provider resources, names and logos retain their own rights. Private DCP materials are outside this release. For commercial content reuse, contact the maintainer through a repository issue.
 
 ## Maintenance
 

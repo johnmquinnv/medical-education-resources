@@ -1,7 +1,7 @@
 # Survey, interview and focus-group templates
 
 **Maintainer:** John Quinn, MD, MPH, PhD, EMT-P  
-**Version:** 0.1.0 · **Updated:** 22 October 2026  
+**Version:** 0.2.0 · **Updated:** 31 October 2026  
 **Status:** original portfolio demonstration; not a validated instrument or approved operational policy. Synthetic examples only.
 
 ## Participant introduction — adapt before real use
@@ -15,6 +15,8 @@ Explain who is conducting the activity, its purpose, expected duration, voluntar
 3. How confident are you that you can explain the process taught? 1 Not at all confident to 5 Extremely confident / Not applicable.
 4. What helped your learning? Optional free text.
 5. What should change next time? Optional free text.
+
+For the analysis export, encode an explicit Not applicable response as the text NA. Leave a skipped optional item blank. Keep numeric ratings as integers 1-5 and reject other values. Never recode Not applicable or a skipped item as zero. Retain the raw export and document the mapping.
 
 Pilot wording, accessibility and completion time. Avoid combining two questions into one. Do not request clinical cases or identifiers in free text. These items are illustrative and unvalidated.
 

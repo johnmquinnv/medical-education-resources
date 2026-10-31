@@ -1,0 +1,26 @@
+name: Check resources
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 7 * * 1'
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
+      - name: Check repository file links
+        run: python3 tools/check_links.py
+      - name: Check external links on scheduled and manual runs
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: python3 tools/check_links.py --external
+      - name: Validate survey and missingness examples
+        run: |
+          python3 research-methods/analyze_survey.py --self-test
+          python3 research-methods/analyze_survey.py research-methods/missingness-example.csv

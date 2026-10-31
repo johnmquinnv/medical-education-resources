@@ -25,7 +25,7 @@ A worked example of designing and evaluating a short **simulated coordination an
 
 Roles: facilitator, sending coordinator, receiving coordinator, observer. Adapt timing and group size to learner needs. Provide a glossary and translated materials with review by a competent bilingual reviewer when needed.
 
-Use the [assessment and debrief worksheet](assessment.md). Pilot the session and revise before broader use. No patient, employer or operational records are needed.
+Use the [assessment and debrief worksheet](assessment.md) and [documented pilot protocol](pilot-protocol.md). No participant pilot or faculty sign-off is recorded as of 31 October 2026. Pilot the session and revise before broader use. No patient, employer or operational records are needed.
 
 ## Development projects
 

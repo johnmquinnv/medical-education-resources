@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0 - 31 October 2026
+
+- Aligned survey, dictionary and analysis missingness rules (NA versus skipped blanks); added a reproducible synthetic analysis and validation script. Prepared a faculty-review and pilot protocol. Clarified reuse terms and added link/data checks.
+- External clinical review and participant pilots remain unrecorded; no approval or accreditation is implied.
+
 ## Portfolio expansion — 22 October 2026
 
 - Added research-methods templates, synthetic survey data and Excel instructions, plus a curriculum map, fictional training scenario and observation rubric.

@@ -1,0 +1,24 @@
+# Educational content license
+
+SPDX-License-Identifier: CC-BY-NC-4.0
+
+Copyright (c) 2026 John Quinn.
+
+Except for the exclusions below, the original educational prose, blank templates, original synthetic datasets and printable educational editions in this repository are licensed under the Creative Commons Attribution-NonCommercial 4.0 International license:
+
+https://creativecommons.org/licenses/by-nc/4.0/
+
+The complete, controlling legal terms are available at:
+
+https://creativecommons.org/licenses/by-nc/4.0/legalcode.en
+
+You may share and adapt the covered material for noncommercial purposes under those terms. Give appropriate credit to John Quinn, link to the source repository and the license, identify changes, and retain relevant notices. Contact the maintainer through a repository issue for separate commercial permission.
+
+## Scope and exclusions
+
+- Source code in tools/, .github/workflows/ and standalone demonstration HTML is covered by LICENSE-CODE instead. Educational prose embedded in an HTML demonstration remains covered by this educational-content license.
+- Linked or cited publications, third-party resources, quoted material, names, logos and trademarks retain their own rights and permissions. This repository does not relicense them.
+- Private DCP course materials, employer work, restricted information and unpublished co-authored work are outside this license and are not released by this repository.
+- Attribution does not imply approval or endorsement by an employer, partner, publisher, NATO, WHO or any other named organization.
+
+Copyright permissions do not establish clinical validation, professional authorization, accreditation or suitability for an operational purpose. Review the scope and status in the relevant resource.

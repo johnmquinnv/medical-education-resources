@@ -13,6 +13,7 @@ Practical starting templates for surveys, structured interviews, focus groups, D
 3. [Delphi and qualitative analysis](consensus-and-coding.md)
 4. [Data dictionary](data-dictionary.csv) and [synthetic sample](synthetic-survey.csv)
 5. [Google Forms and Excel workflow](forms-and-excel.md)
+6. [Completed synthetic analysis](worked-analysis.md), [reproducible checker](analyze_survey.py) and [missingness example](missingness-example.csv)
 
 The worked example asks which course-design features adult learners find useful. All sample responses are invented. No participant recruitment or data collection has occurred for this demonstration.
 

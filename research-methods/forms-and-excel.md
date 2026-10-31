@@ -1,34 +1,29 @@
 # Google Forms and Excel: documented workflow
 
 **Maintainer:** John Quinn, MD, MPH, PhD, EMT-P  
-**Version:** 0.1.0 · **Updated:** 22 October 2026  
-**Status:** original portfolio demonstration; not a validated instrument or approved operational policy. Synthetic examples only.
+**Version:** 0.2.0 · **Updated:** 31 October 2026  
+**Status:** original portfolio demonstration; synthetic records only.
 
-This is a workflow specification, not a claim that a live Form or workbook has been deployed.
+## Form and export specification
 
-## Form specification
+Use the activity options and rating anchors in [instruments.md](instruments.md). Make Not applicable explicit and keep comments optional. Map that response to text NA; leave a skipped item blank; retain ratings as integers 1-5. The [dictionary](data-dictionary.csv) and [missingness example](missingness-example.csv) use this same convention. NA is not the spreadsheet error #N/A.
 
-Use the activity options and rating anchors in [instruments.md](instruments.md). Make “not applicable” explicit and keep comments optional. Confirm email collection, login restrictions and access settings against the approved protocol. Use a separate response destination for testing; remove synthetic tests from a real study dataset before launch.
-
-## Export and clean
-
-1. Preserve a dated raw export in restricted storage; never overwrite it.
-2. Make a working copy and record each transformation in a cleaning log.
-3. Apply the [data dictionary](data-dictionary.csv): valid categories, numeric bounds and missing values.
-4. Resolve duplicates using a prespecified rule, rather than deleting inconvenient observations.
-5. Keep a versioned analysis file and record software versions and analyst decisions.
+Confirm email collection, login restrictions and access settings against the approved protocol. Keep a dated raw export in restricted storage, use a separate testing destination and document every transformation in a cleaning log. Check identifiers, duplicates, activity categories, integer bounds and missingness before analysis. Unexpected values require resolution rather than silent deletion.
 
 ## Excel example
 
-Open [synthetic-survey.csv](synthetic-survey.csv) in Excel. Columns A–D are response_id, activity, usefulness and confidence; rows 2–9 contain the eight invented records.
+Open [synthetic-survey.csv](synthetic-survey.csv). Columns A-D are response_id, activity, usefulness and confidence; rows 2-9 contain eight invented records. Run the [reproducible checker](analyze_survey.py) first; the formulas below assume its validation has passed.
 
 | Calculation | Formula | Expected result |
 |---|---|---|
 | Records | =COUNTA(A2:A9) | 8 |
-| Valid usefulness ratings | =COUNT(C2:C9) | 8 |
-| Ratings 4–5 | =COUNTIF(C2:C9,">=4") | 5 |
-| Proportion rating 4–5 | =COUNTIF(C2:C9,">=4")/COUNT(C2:C9) | 62.5% |
-| Missing confidence ratings | =COUNTBLANK(D2:D9) | 1 |
+| Valid usefulness ratings | =COUNTIFS(C2:C9,">=1",C2:C9,"<=5") | 8 |
+| Ratings 4-5 | =COUNTIFS(C2:C9,">=4",C2:C9,"<=5") | 5 |
+| Proportion rating 4-5 | =IFERROR(COUNTIFS(C2:C9,">=4",C2:C9,"<=5")/COUNTIFS(C2:C9,">=1",C2:C9,"<=5"),"Not applicable") | 62.5% |
+| Skipped confidence ratings | =COUNTBLANK(D2:D9) | 1 |
+| Not-applicable confidence ratings | =COUNTIF(D2:D9,"NA") | 0 |
 | Median usefulness | =MEDIAN(C2:C9) | 4 |
 
-Formula separators vary by locale. The denominator is valid usefulness responses, not automatically everyone invited. For a live growing dataset, convert the data to an Excel Table and update formulas accordingly. Inspect a frequency table for all five rating categories before drawing conclusions. Eight invented records cannot support real-world claims.
+In the separate three-record missingness example, usefulness has one valid rating, one NA and one skipped value. Confidence has two valid ratings, one NA and no skipped values. Neither NA nor blanks enter a valid-rating denominator. Formula separators vary by locale. For a growing dataset, use an Excel Table and update references.
+
+The [worked analysis](worked-analysis.md) reports all five rating categories, subgroup denominators and limitations. Eight invented records cannot support real-world claims. A live research dataset belongs in approved private storage.
